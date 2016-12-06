@@ -12,7 +12,7 @@ body {
 
 /*****************************************************************/
 header {
-	background-color: #008080;// #99CBFF;//#08457E; //#8844FF;	
+	background-color: #186F7A;	
 	margin: 0;
 	padding: 0px;
 }
@@ -46,7 +46,7 @@ header #headercompany {
 
 #button1, #button2, #button3 {
 	text-align: center;
-	background-color: #1D8392;//#8866FF;
+	background-color: #1D8392;
 	padding-top: 7px;
 	padding-bottom: 7px;
 }
@@ -59,8 +59,14 @@ header #headercompany {
 }
 
 #button1:hover, #button2:hover, #button3:hover{
-	background-color: #FF0000;
+	background-color: #67C4D4;
 }
+
+.menu a:hover {
+	color: #960018;
+}
+
+
 
 /*******************************************************************/
 #maincontainer {
