@@ -24,6 +24,7 @@ header #logo {
 
 header #headernames {
 	float: left;
+	margin-top: 15px;
 }
 
 header #headermenu {
@@ -32,7 +33,7 @@ header #headermenu {
 
 header #headertitle {
 	padding-top: 2.5%;
-	font-size: 2.5em;
+	font-size: 3.0em;
 	font-weight: bold;
 	color: #960018;
 }
@@ -69,6 +70,7 @@ header #headercompany {
 
 #maincontainer p {
 	text-align: justify;
+	padding-top: 15px;
 }
 
 
@@ -188,7 +190,8 @@ footer p {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
   .col-md-1 {
@@ -233,6 +236,7 @@ footer p {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+
 	header #headertitle {
 	    font-size: 1.5em;
 	}
@@ -286,12 +290,18 @@ footer p {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+	
+	body{
+	  background-image: url("../images/health_background_little.png");
+	  background-attachment: fixed;
+    }
+	
 	header #headertitle {
 	    font-size: 1.1em;
 	}
 
     header #headercompany {
-	    font-size: 1.0em;
+	    font-size: 0.8em;
 		font-weight: 100;
 	}
 	
