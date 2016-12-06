@@ -4,7 +4,7 @@
 
 body {
    margin: 0;
-   //background-color: #77FFAA;
+   background-color: #007BA7;
    background-image: url("../images/health_background.png");
    background-attachment: fixed;
    font-family: 'Josefin Sans', sans-serif;
@@ -73,6 +73,9 @@ header #headercompany {
 	padding-top: 15px;
 }
 
+#maincontainer h2 {
+	padding-top: 15px;
+}
 
 
 
