@@ -1,0 +1,362 @@
+* {
+	margin-top: 0;
+}
+
+body {
+   margin: 0;
+   //background-color: #77FFAA;
+   background-image: url("../images/health_background.png");
+   background-attachment: fixed;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+/*****************************************************************/
+header {
+	background-color: #8844FF;	
+	margin: 0;
+	padding: 0px;
+}
+
+header #logo {
+	float: left;
+	margin-top: 1.5%;
+}
+
+header #headernames {
+	float: left;
+}
+
+header #headermenu {
+	clear: left;
+}
+
+header #headertitle {
+	padding-top: 2.5%;
+	font-size: 2.5em;
+	font-weight: bold;
+	color: #960018;
+}
+
+header #headercompany {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #00FFFF;
+}
+
+#button1, #button2, #button3 {
+	text-align: center;
+	background-color: #8866FF;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+	
+.menu a{
+	text-transform: uppercase;
+	text-decoration: none; 
+	color: #00FFFF;
+	weight: bold;
+}
+
+#button1:hover, #button2:hover, #button3:hover{
+	background-color: #FF0000;
+}
+
+/*******************************************************************/
+#maincontainer {
+	clear:left;
+	margin: 5%;
+}
+
+#maincontainer p {
+	text-align: justify;
+}
+
+
+
+
+/******************************************************************/
+footer {
+	background-color: #000000;
+	padding: 4%;
+	box-shadow: 0px 500px 0px 500px #000;
+}
+
+footer p {
+	color: #FFFFFF;
+	//margin-top: 10%;
+}
+
+
+
+
+
+
+/*****************RESPONSIVITY***********************************/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+       
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+       
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	header #headertitle {
+	    font-size: 1.5em;
+	}
+
+    header #headercompany {
+	    font-size: 1.0em;
+	}
+	
+	
+	.col-sx-1, .col-sx-2, .col-sx-3, .col-sx-4, .col-sx-5, .col-sx-6, .col-sx-7, .col-sx-8, .col-sx-9, .col-sx-10, .col-sx-11, .col-sx-12 {
+    float: left;
+  }
+  .col-sx-1 {
+    width: 8.33%;
+  }
+  .col-sx-2 {
+    width: 16.66%;
+  }
+  .col-sx-3 {
+    width: 25%;
+  }
+  .col-sx-4 {
+    width: 33.33%;
+  }
+  .col-sx-5 {
+    width: 41.66%;
+  }
+  .col-sx-6 {
+    width: 50%;
+  }
+  .col-sx-7 {
+    width: 58.33%;
+  }
+  .col-sx-8 {
+    width: 66.66%;
+  }
+  .col-sx-9 {
+    width: 74.99%;
+  }
+  .col-sx-10 {
+    width: 83.33%;
+  }
+  .col-sx-11 {
+    width: 91.66%;
+  }
+  .col-sx-12 {
+    width: 100%;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+	header #headertitle {
+	    font-size: 1.1em;
+	}
+
+    header #headercompany {
+	    font-size: 1.0em;
+		font-weight: 100;
+	}
+	
+	
+	.col-sx-1, .col-sx-2, .col-sx-3, .col-sx-4, .col-sx-5, .col-sx-6, .col-sx-7, .col-sx-8, .col-sx-9, .col-sx-10, .col-sx-11, .col-sx-12 {
+    float: left;
+  }
+  .col-sx-1 {
+    width: 8.33%;
+  }
+  .col-sx-2 {
+    width: 16.66%;
+  }
+  .col-sx-3 {
+    width: 25%;
+  }
+  .col-sx-4 {
+    width: 33.33%;
+  }
+  .col-sx-5 {
+    width: 41.66%;
+  }
+  .col-sx-6 {
+    width: 50%;
+  }
+  .col-sx-7 {
+    width: 58.33%;
+  }
+  .col-sx-8 {
+    width: 66.66%;
+  }
+  .col-sx-9 {
+    width: 74.99%;
+  }
+  .col-sx-10 {
+    width: 83.33%;
+  }
+  .col-sx-11 {
+    width: 91.66%;
+  }
+  .col-sx-12 {
+    width: 100%;
+  }
+}
+
+
+
+
+/*******************************************/
+
+
+
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
