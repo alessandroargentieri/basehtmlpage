@@ -5,14 +5,14 @@
 body {
    margin: 0;
    background-image: url("../images/health_background.png");
-   background-color: #99CBFF; //#007BA7;
+   background-color: #30D5C8;
    background-attachment: fixed;
    font-family: 'Josefin Sans', sans-serif;
 }
 
 /*****************************************************************/
 header {
-	background-color: #08457E; //#8844FF;	
+	background-color: #99CBFF;//#08457E; //#8844FF;	
 	margin: 0;
 	padding: 0px;
 }
