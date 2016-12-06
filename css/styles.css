@@ -4,8 +4,8 @@
 
 body {
    margin: 0;
-   background-color: #007BA7;
    background-image: url("../images/health_background.png");
+   background-color: #007BA7;
    background-attachment: fixed;
    font-family: 'Josefin Sans', sans-serif;
 }
@@ -300,7 +300,7 @@ footer p {
     }
 	
 	header #headertitle {
-	    font-size: 1.1em;
+	    font-size: 1.7em;
 	}
 
     header #headercompany {
