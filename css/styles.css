@@ -5,7 +5,7 @@
 body {
    margin: 0;
    background-image: url("../images/health_background.png");
-   background-color: #007BA7;
+   background-color: #99CBFF; //#007BA7;
    background-attachment: fixed;
    font-family: 'Josefin Sans', sans-serif;
 }
