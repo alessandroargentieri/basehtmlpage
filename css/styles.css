@@ -5,7 +5,7 @@
 body {
    margin: 0;
    background-image: url("../images/health_background.png");
-   background-color: #26ACC0; //#30D5C8;
+   background-color: #26ACC0; 
    background-attachment: fixed;
    font-family: 'Josefin Sans', sans-serif;
 }
@@ -58,8 +58,8 @@ header #headercompany {
 .in_button{
 	padding-top: 7px;
 	padding-bottom: 7px;
-	//background-color: rgba(0, 0, 0, 0.1); 
-	background-color: #57000E;//#960018;
+	background-color: rgba(0, 0, 0, 0.2); 
+	//background-color: #57000E;//#960018;
 	border-radius: 5px;
 	margin: 0;
 	margin-left: 1px;
