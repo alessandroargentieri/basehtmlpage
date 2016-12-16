@@ -47,15 +47,29 @@ header #headercompany {
 #button1, #button2, #button3 {
 	text-align: center;
 	background-color: #1D8392;
+	//padding-top: 7px;
+	//padding-bottom: 7px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+	
+}
+
+.in_button{
 	padding-top: 7px;
 	padding-bottom: 7px;
+	background-color: rgba(0, 0, 0, 0.6); 
+	border-radius: 5px;
+	margin: 0;
+	margin-left: 1px;
+	margin-right: 1px;
+	
 }
 	
 .menu a{
 	text-transform: uppercase;
 	text-decoration: none; 
 	color: #00FFFF;
-	weight: bold;
 }
 
 #button1:hover, #button2:hover, #button3:hover{
@@ -70,7 +84,11 @@ header #headercompany {
 
 #maincontainer p {
 	text-align: justify;
+	padding: 3%;
 	padding-top: 15px;
+	background: rgba(255, 255, 255, 0.6); 
+	border-radius: 25px;
+
 }
 
 #maincontainer h2 {
