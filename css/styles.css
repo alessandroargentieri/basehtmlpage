@@ -58,7 +58,7 @@ header #headercompany {
 .in_button{
 	padding-top: 7px;
 	padding-bottom: 7px;
-	background-color: rgba(0, 0, 0, 0.6); 
+	background-color: rgba(0, 0, 0, 0.1); 
 	border-radius: 5px;
 	margin: 0;
 	margin-left: 1px;
